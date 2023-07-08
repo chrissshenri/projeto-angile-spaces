@@ -1,2 +1,117 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700&family=Roboto:wght@400;700&family=PT+Sans:wght@400&display=swap');
+
+/* config css */
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    padding: 0 8px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header img {
+    width: 54px;
+    height: 54px;
+}
+
+#agile {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--button-colour);
+}
+
+
+/* SECTION HERO 1 */
+#img-bg-hero {
+    width: 300px;
+    filter: brightness(60%);
+}
+
+.img-hero-1 {
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+}
+.hero-1-content {
+    z-index: 1;
+}
+
+.hero-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+}
+
+.input-hero-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+#input-hero {
+    font-family: sans-serif;
+    width: 180px;
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--light-grey);
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+#btn-hero-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 8px;
+}
+
+#btn-hero-1 img {
+    width: 15px;
+    height: 15px;
+}
+
+/* HERO 2 */
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+
+.hero-2 img {
+    width: 70px;
+    height: 20px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 61px;
+}
+
+#border-search {
+    height: 1px;
+    background-color: var(--light-grey);
+    width: 300px;
+}

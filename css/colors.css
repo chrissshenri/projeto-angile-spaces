@@ -1,7 +1,12 @@
 /* root */
 :root {
+    --bg-page: #F3F4F7;
     --main-blue: #6A71F1;
     --blue-gray: #667294;
     --light-blue: #E8EEFB;
     --white: #FAFAFA;
+    --grey: #545454;
+    --light-grey: #828282;
+    --marine-blue-headings: #667294;
+    --button-colour: #6A71F1;
 }
