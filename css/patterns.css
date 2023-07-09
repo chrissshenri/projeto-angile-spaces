@@ -44,5 +44,66 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    color:  var(--marine-blue-headings);
+    color: var(--marine-blue-headings);
+}
+
+#sub-title-service {
+    font-family: 'Robot', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-sub-titles);
+}
+
+#title-service {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--marine-blue-headings);   
+}
+
+#p-description-service {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--light-grey);
+}
+
+#title-card-service {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--marine-blue-headings);
+}
+
+#p1-card-service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--grey);
+}
+
+#p2-card-service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--grey);
+}
+
+#p3-card-service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--grey);
+}
+
+#p3-card-service {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--grey);  
 }
