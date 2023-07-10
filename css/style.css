@@ -122,10 +122,14 @@
 
 
 /* SECTION SERVICES */
+#services {
+    margin-bottom: 114px;
+}
+
 .services {
     padding: 8px;
     width: 100%;
-    max-width: 304px;
+    max-width: 1260px;
     background: rgba(194, 212, 251, 0.34);
     border-radius: 20px;
 }
@@ -164,10 +168,6 @@
     gap: 10px;
 }
 
-#see-more {
-    
-}
-
 #p-description-service {
     margin-bottom: 16px;
 }
@@ -203,4 +203,121 @@
 .card-item-services img {
     width: 50px;
     height: 50px;   
+}
+
+
+/* SECTION SUITS */
+select {
+    padding: 7px 27px;
+    color: var(--button-colour);
+    background-color: #C2D4FB57;
+    border-radius: 15px;
+    margin: 0 60%;
+}
+
+.grid-card-content {
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 75px 32px;
+}
+
+.card-content-suits {
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    background-color: var(--light-blue);
+    border-radius: 12px;
+}
+
+.info-card-suits {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#img-card-suit {
+    width: 100%;
+    max-width: 335px;
+}
+
+#price-suits {
+    margin-left: 70px;
+
+}
+
+
+/* SECTION WORK US */
+.work-us {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-work-us {
+    width: 100%;
+    max-width: 606px;
+}
+
+.work-us-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 20px;
+}
+
+#work-us-description-list {
+    margin-bottom: 44px;
+}
+
+#read-more {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* FOOTER */
+.footer {
+    padding: 8px;
+    border-top: 3px solid var(--light-blue);
+}
+
+.content-logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#p-logo-footer {
+    margin-top: 30px;
+}
+
+.footer-content {
+    border-top: 3px solid var(--light-blue);
+    margin-top: 16px;
+}
+
+.title-footer {
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+.content-title-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.logos-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }

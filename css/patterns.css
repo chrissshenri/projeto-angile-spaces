@@ -107,3 +107,99 @@ h3 {
     line-height: 130%;
     color: var(--grey);  
 }
+
+#title-suits {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    color: var(--marine-blue-headings);
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+select {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.number {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+#locate-suits {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+#price-suits {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--button-colour);
+}
+
+.btn-suit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 56px;
+    margin-bottom: 80px;
+}
+
+#title-work-us {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--marine-blue-headings);
+    text-align: center;
+}
+
+#work-us-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--light-grey);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#work-us-description-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    color: var(--grey);
+}
+
+#p-logo-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--grey);
+    text-align: center;
+}
+
+.title-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--marine-blue-headings);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.content-footer-span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--grey);
+    text-align: center;
+}
