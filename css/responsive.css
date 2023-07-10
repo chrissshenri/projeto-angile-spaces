@@ -1,0 +1,95 @@
+@media(min-width: 768px) {
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    select {
+        margin: 0 75%;
+    }
+
+    .links-header {
+        display: block;
+    }
+
+    button {
+        width: 109px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    #p-hero-1 {
+        font-size: 18px;
+    }
+
+    #input-hero {
+        width: 424px;
+    }
+}
+
+@media(min-width: 992px) {
+    .cards-services {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    button {
+        font-size: 14px;
+    }
+
+    #input-hero {
+        font-size: 14px;
+    }
+
+    .work-us {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 46px;
+    }
+
+    .work-us-content {
+        width: 100%;
+        max-width: 598px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #work-us-description {
+        text-align: start;
+    }
+}
+
+@media(min-width: 1400px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 3px solid var(--light-blue);
+    }
+
+    #p-logo-footer {
+        margin: 0;
+        word-wrap: break-word;
+        width: 90%;
+    }
+
+    .footer-content {
+        gap: 105px;
+        border: none;
+        margin: 0;
+        padding: 24px 70px;
+    }
+}

@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* HEADER */
 .header {
     padding: 0 8px;
@@ -36,6 +40,16 @@
     color: var(--button-colour);
 }
 
+.links-and-btn-header {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.links-header {
+    display: none;
+}
+
 
 /* SECTION HERO 1 */
 #search {
@@ -47,11 +61,6 @@
     filter: brightness(60%);
 }
 
-.img-hero-1 {
-    position: absolute;
-    z-index: 0;
-    top: 80px;
-}
 .hero-1-content {
     z-index: 1;
 }
