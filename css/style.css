@@ -46,6 +46,10 @@ body {
     gap: 32px;
 }
 
+.links-and-btn-header a:hover {
+    border-bottom: 3px solid var(--button-colour);
+}
+
 .links-header {
     display: none;
 }
